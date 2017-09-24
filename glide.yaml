@@ -1,0 +1,16 @@
+package: github.com/j4wn/portfolio-notifier
+import:
+- package: github.com/sirupsen/logrus
+  version: v1.0.3
+- package: github.com/leekchan/accounting
+- package: github.com/spf13/cobra
+- package: golang.org/x/net
+  subpackages:
+  - context
+- package: golang.org/x/oauth2
+  subpackages:
+  - google
+- package: google.golang.org/api
+  subpackages:
+  - gmail
+  - sheets
